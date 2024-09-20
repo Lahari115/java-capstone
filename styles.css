@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - International Conferences</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Thank You!</h1>
+        </header>
+        <main>
+            <div id="thank-you-container">
+                <h2 style="font-size: 48px; color: #ff69b4;">Thank You for Registering!</h2>
+                <p style="font-size: 24px;">You are successfully registered for the conference! Be ready for that; we will email you further information.</p>
+                <button onclick="location.href='index.html'">Back to Login</button>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 International Conferences. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
